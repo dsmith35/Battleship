@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Battleship</title>
+        <link rel="stylesheet" href="Styles.css"/>
+    </head>
+    <body onload="CreateBoard(); CreateBoard2(); setShips(); displayShips();">
+        <p>
+            <button type="button" onclick="CreateBoard(); CreateBoard2(); setShips(); displayShips();">Reset</button>
+            <input type="input" id="size_input" style="width: 50px" value="10"></input>
+        </p>
+        <div class="main_board" id="board"></div>
+        <div class = "side_board" id="board2"></div>
+        <script src="Settings.js"></script>
+        <script src="Board.js"></script>
+        <script src="ImportantFunctions.js"></script>
+    </body>
+</html>
