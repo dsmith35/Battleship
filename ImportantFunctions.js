@@ -61,6 +61,7 @@ function displayShips() {
 }
 
 function searchForArray(haystack, needle){
+    //Not mine.
     var i, j, current;
     for(i = 0; i < haystack.length; ++i){
       if(needle.length === haystack[i].length){
